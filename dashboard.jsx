@@ -5,7 +5,7 @@ import PriceChart from "../components/PriceChart";
 
 function Dashboard() {
     return (
-        <div className="dashboard">
+        <div className="dashboard"
             <h1>Crypto Market Dashboard</h1>
 
             <div className="top-row">
@@ -17,6 +17,6 @@ function Dashboard() {
             <PriceChart />
         </div>
     );
-}
 
-export default Dashboard;
+
+export default Dashboard
